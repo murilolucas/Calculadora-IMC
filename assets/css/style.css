@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --pimary-color: rgb(8, 120, 134);
+    --primary-color-dark: rgb(1, 29, 32);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--pimary-color);
+    font-family: 'Open Sans' ,  sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+   
+   
+}
+h1{
+    text-align: center;
+}
+/*form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px
+}
+form input:focus {
+    outline: 1px solid var(--pimary-color)
+}
+form button{
+    border: none;
+    background: var(--pimary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover{
+    background: var(--primary-color-dark);
+}*/
+
+.container-1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.between{
+    padding: 0 100px;
+}
+
+.coluna{
+    max-width: 320px;
+    border-right: 25px;
+    text-align: left;
+}
+p {
+    line-height: 1.0;
+}
+label{
+    text-align: left;
+}
+input{
+    height: 30px;
+    width: 600px;
+    text-align: left;
+    display: block;
+    font-size: 18px;
+}
+#div-button{
+    text-align:  center;
+}
+button{
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#resultado {
+    text-align: center;
+}
+.paragrafo-resultado, .bad{
+    background: rgb(9, 179, 9);
+    padding: 10px 20px;
+}
+.bad{
+    background: red;
+}
